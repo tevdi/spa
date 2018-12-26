@@ -14,11 +14,11 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 var host;
 
-// Usage: host=http://host:port npm run webpack-dev --port port
+// Usage: host=http://host:port npm run webpack-dev-redux --port port
 
-// Simple usage (will use port 8080 for the webserver and 8000 for the proxy): npm run webpack-dev
+// Simple usage (will use port 8080 for the webserver and 8000 for the proxy): npm run webpack-dev-redux
 
-// Using another host for the proxy and another host for the webserver: host=http://localhost:8001 npm run webpack-dev --port 8002
+// Using another host for the proxy and another host for the webserver: host=http://localhost:8001 npm run webpack-dev-redux --port 8002
 
 if (process.env.host) {
     host = process.env.host;

@@ -1,6 +1,5 @@
 import React from 'react'
 import Main from '../Main'
-require('../../../sass/layout.scss')
 import {
       BrowserRouter as Router,
       Route,

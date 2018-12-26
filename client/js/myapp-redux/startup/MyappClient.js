@@ -1,5 +1,4 @@
 import React from 'react'
-require('../../../sass/layout.scss')
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import { syncHistoryWithStore } from 'react-router-redux';
 import { createBrowserHistory } from 'history';

@@ -2,6 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { Route } from 'react-router-dom';
 import Main from '../containers/Main'
+require('../../../sass/layout.scss')
 
 const Root = (initialProps) => {
     return (
